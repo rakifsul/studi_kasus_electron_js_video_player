@@ -1,4 +1,4 @@
-# EVDPLYR - Studi Kasus Electron Aplikasi Video Player
+# EVDPLYR - Aplikasi Video Player dengan Electron js
 
 ## Cara Mencoba Kode Ini
 
