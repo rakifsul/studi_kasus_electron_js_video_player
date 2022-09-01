@@ -1,5 +1,9 @@
 # EVDPLYR - Aplikasi Video Player dengan Electron js
 
+## Software Apakah Ini?
+
+EVDPLYR adalah aplikasi Video Player yang dibuat dengan Electron js.
+
 ## Cara Mencoba Kode Ini
 
 Untuk mencoba kode ini, download folder ini.
