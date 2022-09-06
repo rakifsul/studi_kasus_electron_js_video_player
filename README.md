@@ -4,6 +4,12 @@
 
 EVDPLYR adalah aplikasi Video Player yang dibuat dengan Electron js.
 
+## Screenshot
+
+![ScreenShot](.readme-assets/EVDPLYR-1.png?raw=true)
+
+![ScreenShot](.readme-assets/EVDPLYR-2.png?raw=true)
+
 ## Cara Mencoba Kode Ini
 
 Untuk mencoba kode ini, download folder ini.
@@ -24,7 +30,7 @@ npm run dev
 
 ## Pendahuluan
 
-Kali ini, kita akan belajar membuat video player dengan Electron.
+Kali ini, saya akan memberikan contoh aplikasi video player dengan Electron.
 
 Uniknya, kita hanya perlu mengetikkan beberapa baris kode saja sampai jadi.
 
