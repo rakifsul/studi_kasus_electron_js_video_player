@@ -12,9 +12,7 @@ EVDPLYR adalah aplikasi Video Player yang dibuat dengan Electron js.
 
 ## Cara Mencoba Kode Ini
 
-Untuk mencoba kode ini, download folder ini.
-
-Selanjutnya, masuk ke dalam folder ini via terminal.
+Untuk mencoba kode ini, masuk ke dalam folder ini via terminal.
 
 Selanjutnya, jalankan:
 
