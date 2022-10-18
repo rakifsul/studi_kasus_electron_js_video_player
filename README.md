@@ -1,14 +1,14 @@
-# EVDPLYR - Aplikasi Video Player dengan Electron js
+# shb-video-player - Aplikasi Video Player dengan Electron js
 
 ## Software Apakah Ini?
 
-EVDPLYR adalah aplikasi Video Player yang dibuat dengan Electron js.
+shb-video-player adalah aplikasi Video Player yang dibuat dengan Electron js.
 
 ## Screenshot
 
-![ScreenShot](.readme-assets/EVDPLYR-1.png?raw=true)
+![ScreenShot](.readme-assets/shb-video-player-1.png?raw=true)
 
-![ScreenShot](.readme-assets/EVDPLYR-2.png?raw=true)
+![ScreenShot](.readme-assets/shb-video-player-2.png?raw=true)
 
 ## Cara Mencoba Kode Ini
 
