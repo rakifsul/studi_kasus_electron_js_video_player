@@ -1,5 +1,9 @@
 # shb-el-video-player - Aplikasi Video Player dengan Electron js
 
+## Traktir Saya
+
+Berikan saya uang gratis di https://bit.ly/shb-traktir
+
 ## Software Apakah Ini?
 
 shb-el-video-player adalah aplikasi Video Player yang dibuat dengan Electron js.
