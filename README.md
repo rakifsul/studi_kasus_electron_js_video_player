@@ -2,7 +2,7 @@
 
 ## Software Apakah Ini?
 
-shb-el-video-player adalah aplikasi Video Player yang dibuat dengan Electron js.
+shb-el-video-player adalah aplikasi Video Player yang dibuat dengan Electron js...
 
 ## Screenshot
 
