@@ -4,32 +4,6 @@
 
 shb-el-video-player adalah aplikasi Video Player yang dibuat dengan Electron js...
 
-## Screenshot
-
-![ScreenShot](.readme-assets/shb-el-video-player-1.png?raw=true)
-
-![ScreenShot](.readme-assets/shb-el-video-player-2.png?raw=true)
-
-## Cara Mencoba Kode Ini
-
-Untuk mencoba kode ini, masuk ke dalam folder ini via terminal.
-
-Selanjutnya, jalankan:
-
-```
-npm install
-```
-
- Selanjutnya, jalankan:
-
-```
-npm run dev
-```
-
-## Pendahuluan
-
-Kali ini, saya akan memberikan contoh aplikasi video player dengan Electron.
-
 Uniknya, kita hanya perlu mengetikkan beberapa baris kode saja sampai jadi.
 
 Aplikasi ini menggunakan Metro CSS dan JQuery.
@@ -104,4 +78,24 @@ $(document).ready(async function () {
 });
 ```
 
-# 
+## Cara Mencoba Kode Ini
+
+Untuk mencoba kode ini, masuk ke dalam folder ini via terminal.
+
+Selanjutnya, jalankan:
+
+```
+npm install
+```
+
+ Selanjutnya, jalankan:
+
+```
+npm run dev
+```
+
+## Screenshot
+
+![ScreenShot](.readme-assets/shb-el-video-player-1.png?raw=true)
+
+![ScreenShot](.readme-assets/shb-el-video-player-2.png?raw=true)
