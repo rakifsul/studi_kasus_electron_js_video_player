@@ -1,27 +1,16 @@
-// script ini membuat BrowserWindow.
+const { app, BrowserWindow } = require("electron");
 
-// begin: import modules.
-const {
-    app,
-    BrowserWindow
-} = require('electron');
-// end: import modules.
-
-// variabel penampung BrowserWindow.
 let win;
 
-// saat app ready.
-app.on('ready', () => {
-    // buat BrowserWindow.
+app.on("ready", () => {
     win = new BrowserWindow({
         height: 565,
         webPreferences: {
             nodeIntegration: true,
             contextIsolation: false,
-            enableRemoteModule: true
-        }
+            enableRemoteModule: true,
+        },
     });
 
-    // load URL ini.
-    win.loadURL(`file://${__dirname}/assets/index.html`)
-})
+    win.loadURL(`file://${__dirname}/assets/index.html`);
+});
