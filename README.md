@@ -100,6 +100,6 @@ npm run dev
 
 ## Screenshot
 
-![ScreenShot](.readme-assets/shb-el-video-player-1.png?raw=true)
+![ScreenShot](https://github.com/shbfrlnc/shbfrlnc-images/blob/main/gratisan/shb-el-video-player/screenshot-1.png?raw=true)
 
-![ScreenShot](.readme-assets/shb-el-video-player-2.png?raw=true)
+![ScreenShot](https://github.com/shbfrlnc/shbfrlnc-images/blob/main/gratisan/shb-el-video-player/screenshot-2.png?raw=true)
