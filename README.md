@@ -1,9 +1,5 @@
 # shb-el-video-player - Aplikasi Video Player dengan Electron js
 
-## Link
-
-https://shbfrlnc.github.io/shb-el-video-player.html
-
 ## Software Apakah Ini?
 
 shb-el-video-player adalah aplikasi Video Player yang dibuat dengan Electron js...
