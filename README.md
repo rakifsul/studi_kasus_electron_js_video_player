@@ -4,7 +4,7 @@
 
 shb-el-video-player adalah aplikasi Video Player yang dibuat dengan Electron js...
 
-Uniknya, kita hanya perlu mengetikkan beberapa baris kode saja sampai jadi.
+Uniknya, kita hanya perlu mengetikkan sedikit baris kode saja sampai jadi.
 
 Aplikasi ini menggunakan Metro CSS dan JQuery.
 
@@ -14,85 +14,61 @@ Pertama-tama kita membuat BrowserWindow yang me-load URL dari file HTML.
 
 Di file HTML tadi kita mengimpor JQuery dan CSS dan JS dari Metro CSS.
 
-```
-<!DOCTYPE html>
-<html lang="en">
-<!-- file: index.html -->
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="vendor/metrocss/css/metro-all.min.css">
-
-    <title>Video Player</title>
-</head>
-
-<body>
-    <button id="btn-open-video" class="button outline large alert w-100">Open Video</button>
-    <div id="my-video">
-        <!-- video akan dipasang di sini -->
-    </div>
-
-    <script>
-        // cara import jquery di renderer process
-        window.jQuery = require('./vendor/jquery/jquery.min.js');
-        window.$ = window.jQuery;
-    </script>
-    <script src="vendor/metrocss/js/metro.min.js"></script>
-    <script src="index.js"></script>
-</body>
-
-</html>
-```
-
 Karena Metro CSS memiliki komponen video player, kita tinggal menggunakannya saja untuk memainkan video.
 
 Di window utama, kita membuat sebuah button atau tombol yang jika di-klik, maka dialog akan dibuka untuk memilih file video.
 
 Selanjutnya, jika user kembali membuka video maka tempelan komponen video player akan dibuat dan ditempelkan ulang.
 
-```
-// file: index.js
-
-// begin: import modules
-const {
-    dialog
-} = require('electron').remote;
-// end: import modules
-
-// ketika dokumen ready
-$(document).ready(async function () {
-    // ketika button dengan id btn-open-video diklik
-    $('#btn-open-video').click(async function () {
-        // buka open dialog untuk file
-        let ret = await dialog.showOpenDialog({
-            properties: ['openFile']
-        });
-
-        // bersihkan elemen di bawah elemen dengan id my-video
-        $('#my-video').empty();
-
-        // append dengan elemen video (bawaan dari metro css)
-        $('#my-video').html(`<video data-role="video-player" data-src="${ret.filePaths[0]}"></video>`);
-    });
-});
-```
-
 ## Cara Mencoba Kode Ini
 
-Untuk mencoba kode ini, masuk ke dalam folder ini via terminal.
+### Mode Development
 
-Selanjutnya, jalankan:
+Untuk menjalankan aplikasi ini dalam mode development, masuk ke dalam folder source code-nya (folder ini) via command line, lalu:
 
 ```
 npm install
 ```
 
- Selanjutnya, jalankan:
+Selanjutnya, untuk menjalankan kode dalam bentuk plaintext:
 
 ```
 npm run dev
 ```
+
+### Mode Production
+
+Untuk menjalankan aplikasi ini dalam mode production, masuk ke dalam folder source code-nya (folder ini) via command line, lalu:
+
+```
+npm install
+```
+
+Obfuscate kode plaintext nya:
+
+```
+npm run obfuscate
+```
+
+jalankan kode yang sudah di-obfuscate:
+
+```
+npm run start
+```
+
+Untuk mem-build installer untuk Windows, obfuscate dahulu, karena kode plaintext untuk development, bukan production:
+
+```
+npm run obfuscate
+```
+
+Build installer:
+
+```
+npm run dist
+```
+
+Hasilnya ada di "../\_Release/shb-el-video-player".
 
 ## Screenshot
 
