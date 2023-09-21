@@ -1,8 +1,8 @@
-# shb-el-video-player - Aplikasi Video Player dengan Electron js
+# shb_el_video_player - Aplikasi Video Player dengan Electron js
 
 ## Software Apakah Ini?
 
-shb-el-video-player adalah aplikasi Video Player yang dibuat dengan Electron js...
+shb_el_video_player adalah aplikasi Video Player yang dibuat dengan Electron js...
 
 Uniknya, kita hanya perlu mengetikkan sedikit baris kode saja sampai jadi.
 
@@ -68,7 +68,7 @@ Build installer:
 npm run dist
 ```
 
-Hasilnya ada di "../\_Release/shb-el-video-player".
+Hasilnya ada di "../\_Release/shb_el_video_player".
 
 ## Screenshot
 

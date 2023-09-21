@@ -1,5 +1,5 @@
 {
-    "name": "shb-el-video-player",
+    "name": "shb_el_video_player",
     "version": "2023.7.9",
     "description": "Aplikasi video player",
     "main": "main.js",
@@ -13,7 +13,7 @@
     },
     "build": {
         "buildVersion": "0",
-        "appId": "com.sfrfrlnc.shb-el-video-player",
+        "appId": "com.sfrfrlnc.shb_el_video_player",
         "productName": "SHB EL Video Player",
         "win": {
             "target": "nsis",
@@ -22,7 +22,7 @@
         "asar": true,
         "publish": null,
         "directories": {
-            "output": "../_Release/shb-el-video-player"
+            "output": "../_Release/shb_el_video_player"
         },
         "files": [
             "**/*",
