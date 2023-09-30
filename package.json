@@ -1,9 +1,8 @@
 {
     "name": "shb_el_video_player",
-    "version": "2023.7.9",
+    "version": "2023.9.30",
     "description": "Aplikasi video player",
     "main": "main.js",
-    "author": "SHBFRLNC",
     "scripts": {
         "start": "electron .",
         "dev": "electron . --dev",
