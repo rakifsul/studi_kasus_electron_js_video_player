@@ -78,9 +78,3 @@ npm run dist
 ```
 
 Hasilnya ada di "../\_Release/shb_el_video_player".
-
-## Screenshot
-
-![ScreenShot](https://github.com/shbfrlnc/shbfrlnc-images/blob/main/gratisan/shb-el-video-player/screenshot-1.png?raw=true)
-
-![ScreenShot](https://github.com/shbfrlnc/shbfrlnc-images/blob/main/gratisan/shb-el-video-player/screenshot-2.png?raw=true)
