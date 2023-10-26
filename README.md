@@ -4,6 +4,11 @@
 
 https://sfrfrlnc.com/shb_el_video_player/
 
+## Lisensi
+
+- AGPL 3.0 (untuk non komersial)
+- [Traktir License](https://sfrfrlnc.com/traktir-license/) (untuk komersial)
+
 ## Software Apakah Ini?
 
 shb_el_video_player adalah aplikasi Video Player yang dibuat dengan Electron js...
