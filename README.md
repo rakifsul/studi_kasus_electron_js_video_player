@@ -4,10 +4,6 @@
 
 https://sfrfrlnc.com/shb_el_video_player/
 
-## Lisensi
-
-- [Traktir License](https://sfrfrlnc.com/traktir-license/)
-
 ## Software Apakah Ini?
 
 shb_el_video_player adalah aplikasi Video Player yang dibuat dengan Electron js...
