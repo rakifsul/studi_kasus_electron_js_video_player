@@ -1,32 +1,33 @@
-// script ini membuat BrowserWindow.
+// script ini adalah tempat membuat objek WindowHome.
 
 // begin: import modules.
-const { app, BrowserWindow } = require("electron");
-
-const DialogService = require("./background/dialogservice");
+const { app } = require("electron");
+const AppServices = require("./appservices");
+const WindowHome = require("./windowhome/main");
 // end: import modules.
 
-// variabel penampung BrowserWindow.
-let win;
+let windowhome;
 
-// saat app ready.
+// saat app ready
 app.on("ready", () => {
-    // inisialisasi dialog service.
-    // agar di renderer process bisa
-    // memanggil fitur dialog
-    // melalui ipcRenderer.invoke.
-    DialogService();
+    // panggil AppServices
+    AppServices();
 
-    // buat BrowserWindow.
-    win = new BrowserWindow({
-        height: 565,
-        webPreferences: {
-            nodeIntegration: true,
-            contextIsolation: false,
-            enableRemoteModule: true,
-        },
-    });
+    // buat objek WindowHome
+    windowhome = new WindowHome();
+});
 
-    // load URL ini.
-    win.loadURL(`file://${__dirname}/foreground/index.html`);
+// saat semua window di-close
+app.on("window-all-closed", () => {
+    // keluar aplikasi
+    app.quit();
+});
+
+// saat app di-activate
+app.on("activate", () => {
+    // jika tidak ada objek WindowHome
+    if (!windowHome) {
+        // buat WindowHome
+        windowHome = new WindowHome();
+    }
 });

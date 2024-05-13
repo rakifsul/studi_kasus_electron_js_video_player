@@ -1,34 +1,8 @@
-# shb_el_video_player - Aplikasi Video Player dengan Electron js
+# Cara Mencoba Kode Ini
 
-## Link ke Halaman Web
+## Mode Development
 
-https://sfrfrlnc.com/shb_el_video_player/
-
-## Software Apakah Ini?
-
-shb_el_video_player adalah aplikasi Video Player yang dibuat dengan Electron js...
-
-Uniknya, kita hanya perlu mengetikkan sedikit baris kode saja sampai jadi.
-
-Aplikasi ini menggunakan Metro CSS dan JQuery.
-
-## Cara Kerja
-
-Pertama-tama kita membuat BrowserWindow yang me-load URL dari file HTML.
-
-Di file HTML tadi kita mengimpor JQuery dan CSS dan JS dari Metro CSS.
-
-Karena Metro CSS memiliki komponen video player, kita tinggal menggunakannya saja untuk memainkan video.
-
-Di window utama, kita membuat sebuah button atau tombol yang jika di-klik, maka dialog akan dibuka untuk memilih file video.
-
-Selanjutnya, jika user kembali membuka video maka tempelan komponen video player akan dibuat dan ditempelkan ulang.
-
-## Cara Mencoba Kode Ini
-
-### Mode Development
-
-Untuk menjalankan aplikasi ini dalam mode development, masuk ke dalam folder source code-nya (folder ini) via command line, lalu:
+Untuk menjalankan aplikasi ini dalam mode development, masuk ke dalam folder source code-nya (folder project) via command line, lalu:
 
 ```
 npm install
@@ -40,12 +14,18 @@ Selanjutnya, untuk menjalankan kode dalam bentuk plaintext:
 npm run dev
 ```
 
-### Mode Production
+## Mode Production
 
-Untuk menjalankan aplikasi ini dalam mode production, masuk ke dalam folder source code-nya (folder ini) via command line, lalu:
+Untuk menjalankan aplikasi ini dalam mode production, masuk ke dalam folder source code-nya (folder project) via command line, lalu:
 
 ```
 npm install
+```
+
+Generate lisensi pihak ke-3:
+
+```
+npm run genlicense
 ```
 
 Obfuscate kode plaintext nya:
@@ -72,4 +52,4 @@ Build installer:
 npm run dist
 ```
 
-Hasilnya ada di "../\_Release/shb_el_video_player".
+Hasilnya ada di folder "./dist".
