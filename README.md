@@ -5,6 +5,7 @@
         -   [Mode Development](#mode-development)
         -   [Mode Production](#mode-production)
     -   [Source Code Project Ini](#source-code-project-ini)
+    -   [Traktir Saya](#traktir-saya)
     -   [Pendahuluan](#pendahuluan)
     -   [Tujuan](#tujuan)
     -   [Prasyarat](#prasyarat)
@@ -85,6 +86,10 @@ Hasilnya ada di folder "./dist".
 ## Source Code Project Ini
 
 Source code project ini ada di folder "shb_el_video_player".
+
+## Traktir Saya
+
+Saya meminta kepada Anda untuk mengunjungi link saya ( https://taplink.cc/rakifsul ), mengeksplorasinya, dan lebih baik lagi jika Anda mentraktir saya melalui link tersebut.
 
 ## Pendahuluan
 
