@@ -87,9 +87,15 @@ Hasilnya ada di folder "./dist".
 
 Source code project ini ada di folder "shb_el_video_player".
 
-## Traktir Saya
+## Jika Ingin Traktir Saya
 
-Saya meminta kepada Anda untuk mengunjungi link saya ( https://taplink.cc/rakifsul ), mengeksplorasinya, dan lebih baik lagi jika Anda mentraktir saya melalui link tersebut.
+Artikel ini gratis.
+
+Jika Anda ingin traktir saya, kunjungi link saya ( https://taplink.cc/rakifsul ).
+
+Di sana ada link untuk traktirnya dan link lainnya.
+
+Selamat menikmati.
 
 ## Pendahuluan
 
