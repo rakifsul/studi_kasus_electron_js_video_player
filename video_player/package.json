@@ -1,5 +1,5 @@
 {
-    "name": "shb_el_video_player",
+    "name": "video_player",
     "version": "2023.12.02",
     "description": "Aplikasi video player",
     "main": "main.js",
@@ -12,8 +12,8 @@
     },
     "build": {
         "buildVersion": "0",
-        "appId": "com.rakifsul.shb_el_video_player",
-        "productName": "SHB EL Video Player",
+        "appId": "com.rakifsul.video_player",
+        "productName": "Video Player",
         "win": {
             "target": "nsis",
             "icon": "build/icon.png"

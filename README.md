@@ -13,25 +13,25 @@
         -   [Menginisialisasi Project dengan npm](#menginisialisasi-project-dengan-npm)
         -   [Meng-install Dependencies](#meng-install-dependencies)
         -   [Membuat 3 Script Utama](#membuat-3-script-utama)
-        -   [Membuat Folder "shb_el_video_player/build"](#membuat-folder-shb_el_video_playerbuild)
-        -   [Membuat Folder "shb_el_video_player/src"](#membuat-folder-shb_el_video_playersrc)
-        -   [Membuat Folder "shb_el_video_player/src/vendor"](#membuat-folder-shb_el_video_playersrcvendor)
-        -   [Membuat Folder "shb_el_video_player/src/windowhome"](#membuat-folder-shb_el_video_playersrcwindowhome)
+        -   [Membuat Folder "video_player/build"](#membuat-folder-video_playerbuild)
+        -   [Membuat Folder "video_player/src"](#membuat-folder-video_playersrc)
+        -   [Membuat Folder "video_player/src/vendor"](#membuat-folder-video_playersrcvendor)
+        -   [Membuat Folder "video_player/src/windowhome"](#membuat-folder-video_playersrcwindowhome)
         -   [Pembuatan Project Selesai](#pembuatan-project-selesai)
     -   [Pembahasan](#pembahasan)
-        -   [File "shb_el_video_player/package.json"](#file-shb_el_video_playerpackagejson)
-        -   [File "shb_el_video_player/ndlg.js"](#file-shb_el_video_playerndlgjs)
-        -   [File "shb_el_video_player/obfuscate.js"](#file-shb_el_video_playerobfuscatejs)
-        -   [File "shb_el_video_player/main.js"](#file-shb_el_video_playermainjs)
-        -   [File "shb_el_video_player/src/app.js" dan "shb_el_video_player/src/appservices.js"](#file-shb_el_video_playersrcappjs-dan-shb_el_video_playersrcappservicesjs)
-        -   [Folder "shb_el_video_player/src/windowhome" beserta Isinya](#folder-shb_el_video_playersrcwindowhome-beserta-isinya)
+        -   [File "video_player/package.json"](#file-video_playerpackagejson)
+        -   [File "video_player/ndlg.js"](#file-video_playerndlgjs)
+        -   [File "video_player/obfuscate.js"](#file-video_playerobfuscatejs)
+        -   [File "video_player/main.js"](#file-video_playermainjs)
+        -   [File "video_player/src/app.js" dan "video_player/src/appservices.js"](#file-video_playersrcappjs-dan-video_playersrcappservicesjs)
+        -   [Folder "video_player/src/windowhome" beserta Isinya](#folder-video_playersrcwindowhome-beserta-isinya)
     -   [Penutup](#penutup)
 
 ## Cara Mencoba Kode Ini
 
 ### Mode Development
 
-Untuk menjalankan aplikasi ini dalam mode development, masuk ke dalam folder source code-nya (folder "shb_el_video_player") via command line, lalu:
+Untuk menjalankan aplikasi ini dalam mode development, masuk ke dalam folder source code-nya (folder "video_player") via command line, lalu:
 
 ```
 npm install
@@ -45,7 +45,7 @@ npm run dev
 
 ### Mode Production
 
-Untuk menjalankan aplikasi ini dalam mode production, masuk ke dalam folder source code-nya (folder "shb_el_video_player") via command line, lalu:
+Untuk menjalankan aplikasi ini dalam mode production, masuk ke dalam folder source code-nya (folder "video_player") via command line, lalu:
 
 ```
 npm install
@@ -85,7 +85,7 @@ Hasilnya ada di folder "./dist".
 
 ## Source Code Project Ini
 
-Source code project ini ada di folder "shb_el_video_player".
+Source code project ini ada di folder "video_player".
 
 ## Jika Ingin Traktir Saya
 
@@ -166,12 +166,12 @@ Adapun pembahasan ada pada bagian "Pembahasan".
 
 ### Menginisialisasi Project dengan npm
 
-Pertama, buatlah sebuah folder bernama "shb_el_video_player".
+Pertama, buatlah sebuah folder bernama "video_player".
 
 Kemudian, masuk ke dalam folder tersebut dengan:
 
 ```
-cd shb_el_video_player
+cd video_player
 ```
 
 Selanjutnya, jalankan perintah ini:
@@ -186,7 +186,7 @@ Sekarang, replace isi file "package.json" dengan kode ini:
 
 ```
 {
-    "name": "shb_el_video_player",
+    "name": "video_player",
     "version": "2023.12.02",
     "description": "Aplikasi video player",
     "main": "main.js",
@@ -199,8 +199,8 @@ Sekarang, replace isi file "package.json" dengan kode ini:
     },
     "build": {
         "buildVersion": "0",
-        "appId": "com.rakifsul.shb_el_video_player",
-        "productName": "SHB EL Video Player",
+        "appId": "com.rakifsul.video_player",
+        "productName": "Video Player",
         "win": {
             "target": "nsis",
             "icon": "build/icon.png"
@@ -236,11 +236,11 @@ Sekarang, replace isi file "package.json" dengan kode ini:
 
 Saat ini, Anda telah menginisialisasi project.
 
-Dengan menginisialisasi project, Anda mendapatkan "shb_el_video_player/package.json"
+Dengan menginisialisasi project, Anda mendapatkan "video_player/package.json"
 
-Di "shb_el_video_player/package.json" itulah dependencies akan atau telah didaftarkan.
+Di "video_player/package.json" itulah dependencies akan atau telah didaftarkan.
 
-Maka dari itu, jalankan ini dari folder "shb_el_video_player":
+Maka dari itu, jalankan ini dari folder "video_player":
 
 ```
 npm install
@@ -248,7 +248,7 @@ npm install
 
 Untuk meng-install dan mendaftarkan dependencies yang telah terdaftar.
 
-Jika itu sudah dilakukan, maka akan muncul folder baru di dalam folder "shb_el_video_player" bernama folder "node_modules".
+Jika itu sudah dilakukan, maka akan muncul folder baru di dalam folder "video_player" bernama folder "node_modules".
 
 ### Membuat 3 Script Utama
 
@@ -260,7 +260,7 @@ Ketiga script tersebut adalah:
 -   ndlg.js
 -   obfuscate.js
 
-Sekarang, buatlah file "shb_el_video_player/main.js" kemudian isi dengan kode ini:
+Sekarang, buatlah file "video_player/main.js" kemudian isi dengan kode ini:
 
 ```
 // script ini berfungsi sebagai bootstrapper
@@ -285,7 +285,7 @@ if (process.argv.length >= 3) {
 }
 ```
 
-Selanjutnya, buatlah file "shb_el_video_player/ndlg.js" kemudian isi dengan kode ini:
+Selanjutnya, buatlah file "video_player/ndlg.js" kemudian isi dengan kode ini:
 
 ```
 // script ini berfungsi untuk mengumpulkan file license dari node_modules
@@ -334,7 +334,7 @@ checker.init(
 );
 ```
 
-Sekarang, buatlah file "shb_el_video_player/obfuscate.js" kemudian isi dengan kode ini:
+Sekarang, buatlah file "video_player/obfuscate.js" kemudian isi dengan kode ini:
 
 ```
 // script ini berfungsi untuk meng-obfuscate script-script
@@ -402,19 +402,19 @@ function walkDirRecursive(pathInput) {
 walkDirRecursive('./srcc');
 ```
 
-### Membuat Folder "shb_el_video_player/build"
+### Membuat Folder "video_player/build"
 
-Sekarang, buatlah folder bernama "shb_el_video_player/build".
+Sekarang, buatlah folder bernama "video_player/build".
 
 Isi folder tersebut dengan gambar .png dengan resolusi 512x512 pixel.
 
 Beri nama gambar tersebut dengan "icon.png".
 
-### Membuat Folder "shb_el_video_player/src"
+### Membuat Folder "video_player/src"
 
-Sekarang, buatlah folder bernama "shb_el_video_player/src".
+Sekarang, buatlah folder bernama "video_player/src".
 
-Di folder "shb_el_video_player/src", buatlah file "shb_el_video_player/src/app.js", kemudian isi dengan kode ini:
+Di folder "video_player/src", buatlah file "video_player/src/app.js", kemudian isi dengan kode ini:
 
 ```
 // script ini adalah tempat membuat objek WindowHome.
@@ -452,7 +452,7 @@ app.on("activate", () => {
 });
 ```
 
-Di folder "shb_el_video_player/src" juga, buatlah file "shb_el_video_player/src/appservices.js", kemudian isi dengan kode ini:
+Di folder "video_player/src" juga, buatlah file "video_player/src/appservices.js", kemudian isi dengan kode ini:
 
 ```
 // script ini berisi handler untuk open dialog
@@ -474,9 +474,9 @@ function setup() {
 module.exports = setup;
 ```
 
-### Membuat Folder "shb_el_video_player/src/vendor"
+### Membuat Folder "video_player/src/vendor"
 
-Sekarang, kita akan membuat folder "shb_el_video_player/src/vendor".
+Sekarang, kita akan membuat folder "video_player/src/vendor".
 
 Folder ini berisi dependency yang bukan diinstal via npm.
 
@@ -497,28 +497,28 @@ Sebenarnya, Anda bisa membuild Metro UI dari source code, tapi itu tidak dibahas
 
 jQuery juga bisa di-download langsung dari website-nya, tapi saya khawatir versinya beda.
 
-Jadi, agar lebih akurat, Anda juga bisa meng-copy folder vendor dari project yang telah saya sediakan. Lokasinya ada di "shb_el_video_player/src/vendor" pada project yang disertakan bersama artikel ini.
+Jadi, agar lebih akurat, Anda juga bisa meng-copy folder vendor dari project yang telah saya sediakan. Lokasinya ada di "video_player/src/vendor" pada project yang disertakan bersama artikel ini.
 
 Mungkin cara itu lebih baik agar tidak keliru versinya dan Anda tidak perlu repot-repot mem-build-nya.
 
-### Membuat Folder "shb_el_video_player/src/windowhome"
+### Membuat Folder "video_player/src/windowhome"
 
-Selanjutnya, kita akan membuat folder "shb_el_video_player/src/windowhome".
+Selanjutnya, kita akan membuat folder "video_player/src/windowhome".
 
-Di dalam folder "shb_el_video_player/src/windowhome", ada beberapa script:
+Di dalam folder "video_player/src/windowhome", ada beberapa script:
 
 -   main.js
 -   preload.js
 -   renderer.js
 -   renderer.html
 
-"shb_el_video_player/src/windowhome/main.js" adalah script dari main process, sedangkan "shb_el_video_player/src/windowhome/renderer.js" adalah script dari renderer process.
+"video_player/src/windowhome/main.js" adalah script dari main process, sedangkan "video_player/src/windowhome/renderer.js" adalah script dari renderer process.
 
-"shb_el_video_player/src/windowhome/main.js" akan memuat file "shb_el_video_player/src/windowhome/preload.js" dan "shb_el_video_player/src/windowhome/renderer.html".
+"video_player/src/windowhome/main.js" akan memuat file "video_player/src/windowhome/preload.js" dan "video_player/src/windowhome/renderer.html".
 
-"shb_el_video_player/src/windowhome/renderer.html" akan memuat "shb_el_video_player/src/windowhome/renderer.js".
+"video_player/src/windowhome/renderer.html" akan memuat "video_player/src/windowhome/renderer.js".
 
-Sekarang buatlah file "shb_el_video_player/src/windowhome/main.js" kemudian isi dengan kode ini:
+Sekarang buatlah file "video_player/src/windowhome/main.js" kemudian isi dengan kode ini:
 
 ```
 // script ini berisi definisi dari WindowHome
@@ -553,7 +553,7 @@ class WindowHome {
 module.exports = WindowHome;
 ```
 
-Selanjutnya, buatlah file "shb_el_video_player/src/windowhome/preload.js" kemudian isi dengan kode ini:
+Selanjutnya, buatlah file "video_player/src/windowhome/preload.js" kemudian isi dengan kode ini:
 
 ```
 // script ini berisi preload dari WindowHome.
@@ -594,7 +594,7 @@ contextBridge.exposeInMainWorld("preload", {
 });
 ```
 
-Selanjutnya, buatlah file "shb_el_video_player/src/windowhome/renderer.js" kemudian isi dengan kode ini:
+Selanjutnya, buatlah file "video_player/src/windowhome/renderer.js" kemudian isi dengan kode ini:
 
 ```
 // script ini adalah renderer process untuk BrowserWindow.
@@ -618,7 +618,7 @@ $(document).ready(async function () {
 });
 ```
 
-Selanjutnya, buatlah file "shb_el_video_player/src/windowhome/renderer.html" kemudian isi dengan kode ini:
+Selanjutnya, buatlah file "video_player/src/windowhome/renderer.html" kemudian isi dengan kode ini:
 
 ```
 <!DOCTYPE html>
@@ -633,7 +633,7 @@ Selanjutnya, buatlah file "shb_el_video_player/src/windowhome/renderer.html" kem
   <link rel="stylesheet" href="../vendor/metrocss/css/metro-all.min.css">
 
   <!-- judul header -->
-  <title>SHB EL Video Player</title>
+  <title>Video Player</title>
 </head>
 
 <body>
@@ -678,19 +678,19 @@ Pembahasan kode di studi kasus ini dimulai dari subfolder terluar, kemudian sedi
 
 Oleh karena itu, kita akan mulai dari "package.json" terlebih dahulu.
 
-### File "shb_el_video_player/package.json"
+### File "video_player/package.json"
 
-File "shb_el_video_player/package.json" dibuat secara otomatis saat kita menjalankan perintah npm init.
+File "video_player/package.json" dibuat secara otomatis saat kita menjalankan perintah npm init.
 
 Penambahan parameter -y pada perintah npm init -y menandakan bahwa kita menerima semua jawaban dari pertanyaan npm init sebagai "yes" atau "iya".
 
-Karena kita mendapat file "shb_el_video_player/package.json" default dari perintah tersebut, maka pada bagian "Langkah-Langkah", kita me-replace "shb_el_video_player/package.json" default yang di-generate dengan versi kita sendiri.
+Karena kita mendapat file "video_player/package.json" default dari perintah tersebut, maka pada bagian "Langkah-Langkah", kita me-replace "video_player/package.json" default yang di-generate dengan versi kita sendiri.
 
 Yaitu yang ini:
 
 ```
 {
-    "name": "shb_el_video_player",
+    "name": "video_player",
     "version": "2023.12.02",
     "description": "Aplikasi video player",
     "main": "main.js",
@@ -703,8 +703,8 @@ Yaitu yang ini:
     },
     "build": {
         "buildVersion": "0",
-        "appId": "com.rakifsul.shb_el_video_player",
-        "productName": "SHB EL Video Player",
+        "appId": "com.rakifsul.video_player",
+        "productName": "Video Player",
         "win": {
             "target": "nsis",
             "icon": "build/icon.png"
@@ -736,7 +736,7 @@ Yaitu yang ini:
 }
 ```
 
-Berikut ini adalah deskripsi dari property-property "shb_el_video_player/package.json" di atas:
+Berikut ini adalah deskripsi dari property-property "video_player/package.json" di atas:
 
 -   "name" adalah nama project kita.
 -   "version" adalah versi project kita.
@@ -747,9 +747,9 @@ Berikut ini adalah deskripsi dari property-property "shb_el_video_player/package
 -   "keywords" adalah keyword dari package atau project ini. Karena kita tidak akan mempublikasinya, maka itu tidak terlalu diperlukan.
 -   "devDependencies" adalah daftar dependencies yang kita install dengan perintah npm install [nama_package] --save-dev.
 
-### File "shb_el_video_player/ndlg.js"
+### File "video_player/ndlg.js"
 
-File "shb_el_video_player/ndlg.js" pada dasarnya adalah file karangan saya untuk mempermudah membuat daftar lisensi dari package-package dependency project berbasis Electron.
+File "video_player/ndlg.js" pada dasarnya adalah file karangan saya untuk mempermudah membuat daftar lisensi dari package-package dependency project berbasis Electron.
 
 Tujuannya adalah untuk legalitas, tapi saya sendiri tidak terlalu yakin apakah itu diperlukan. Jadi, sebaiknya buat saja.
 
@@ -781,9 +781,9 @@ Modul "fs" digunakan untuk manajemen file.
 
 Modul "path" untuk memanipulasi path.
 
-Modul "license-checker" digunakan untuk melakukan pengecekan lisensi di dalam folder "shb_el_video_player/node_modules".
+Modul "license-checker" digunakan untuk melakukan pengecekan lisensi di dalam folder "video_player/node_modules".
 
-Kode ini mengindikasikan bahwa kopi dari file lisensi di "shb_el_video_player/node_modules" akan diletakkan di "shb_el_video_player/3rdparty_licenses":
+Kode ini mengindikasikan bahwa kopi dari file lisensi di "video_player/node_modules" akan diletakkan di "video_player/3rdparty_licenses":
 
 ```
 // folder tempat meletakkan license 3rd party.
@@ -799,7 +799,7 @@ if (!fs.existsSync(licenseFolder)) {
 }
 ```
 
-Kode ini akan merayapi folder "shb_el_video_player" untuk mencari file lisensi:
+Kode ini akan merayapi folder "video_player" untuk mencari file lisensi:
 
 ```
 // jalankan license-checker.
@@ -831,9 +831,9 @@ checker.init(
 );
 ```
 
-### File "shb_el_video_player/obfuscate.js"
+### File "video_player/obfuscate.js"
 
-File "shb_el_video_player/obfuscate.js" tugasnya adalah mengacak kode yang plaintext, yang ada di dalam folder "shb_el_video_player/src" dan hasilnya disimpan pada "shb_el_video_player/srcc".
+File "video_player/obfuscate.js" tugasnya adalah mengacak kode yang plaintext, yang ada di dalam folder "video_player/src" dan hasilnya disimpan pada "video_player/srcc".
 
 Kode perlu di-obfuscate dengan cara ini, karena Electron tidak memiliki metoda bawaan untuk melakukannya.
 
@@ -847,7 +847,7 @@ const fs = require('fs');
 // end: import modules.
 ```
 
-Setelah modul-modul yang diperlukan diimpor, maka kode ini akan mengkopi seluruh folder "shb_el_video_player/src" ke "shb_el_video_player/srcc":
+Setelah modul-modul yang diperlukan diimpor, maka kode ini akan mengkopi seluruh folder "video_player/src" ke "video_player/srcc":
 
 ```
 // copy seluruh isi folder src ke dalam folder srcc.
@@ -858,16 +858,16 @@ copydir.sync('./src', './srcc', {
 });
 ```
 
-Selanjutnya, kode tadi akan melakukan perayapan ke dalam folder "shb_el_video_player/srcc" secara rekursif:
+Selanjutnya, kode tadi akan melakukan perayapan ke dalam folder "video_player/srcc" secara rekursif:
 
 ```
 // obfuscate script-script yang ada di dalam folder "project/srcc".
 walkDirRecursive('./srcc');
 ```
 
-Sehingga, seluruh isi folder "shb_el_video_player/srcc" akan dibaca dan jika memenuhi ketentuan, akan di-obfuscate.
+Sehingga, seluruh isi folder "video_player/srcc" akan dibaca dan jika memenuhi ketentuan, akan di-obfuscate.
 
-Ketentuannya adalah, jika file berekstensi .js dan tidak ada di folder "shb_el_video_player/srcc/vendor" maka obfuscate.
+Ketentuannya adalah, jika file berekstensi .js dan tidak ada di folder "video_player/srcc/vendor" maka obfuscate.
 
 Berikut ini adalah definisi walkDirRecursive:
 
@@ -918,15 +918,15 @@ function walkDirRecursive(pathInput) {
 }
 ```
 
-### File "shb_el_video_player/main.js"
+### File "video_player/main.js"
 
-File "shb_el_video_player/main.js" adalah file bootstrapper aplikasi ini.
+File "video_player/main.js" adalah file bootstrapper aplikasi ini.
 
 Oleh karena itu, file itu adalah file yang pertama kali dijalankan oleh Electron.
 
 Tahu dari mana bahwa itu bootstrapper?
 
-Jawabannya ada di "shb_el_video_player/package.json":
+Jawabannya ada di "video_player/package.json":
 
 ```
 "main": "main.js",
@@ -934,7 +934,7 @@ Jawabannya ada di "shb_el_video_player/package.json":
 
 Karena property "main" bernilai "main.js", maka "main.js"-lah bootstrappernya.
 
-Berikut ini adalah isi dari "shb_el_video_player/main.js":
+Berikut ini adalah isi dari "video_player/main.js":
 
 ```
 // script ini berfungsi sebagai bootstrapper
@@ -961,7 +961,7 @@ if (process.argv.length >= 3) {
 
 Yang perlu Anda ketahui dari script tadi adalah bahwa kita menentukan apakah kita akan menjalankan kode plaintext atau obfuscated berdasarkan parameter yang diberikan saat menjalankan aplikasi ini dengan Electron.
 
-lihat bagian ini dari "shb_el_video_player/package.json":
+lihat bagian ini dari "video_player/package.json":
 
 ```
         "start": "electron .",
@@ -976,7 +976,7 @@ npm run dev
 
 Maka perintah Electron ditambahkan parameter "--dev".
 
-Dan sesuai dengan kode di "shb_el_video_player/main.js" ini:
+Dan sesuai dengan kode di "video_player/main.js" ini:
 
 ```
     // jika argument ke 2 nya adalah --dev...
@@ -985,7 +985,7 @@ Dan sesuai dengan kode di "shb_el_video_player/main.js" ini:
         require("./src/app.js");
 ```
 
-Maka yang dijalankan adalah versi plaintext atau yang ada di "shb_el_video_player/src".
+Maka yang dijalankan adalah versi plaintext atau yang ada di "video_player/src".
 
 Adapun jika kita menjalankan:
 
@@ -1004,15 +1004,15 @@ Akibatnya, sesuai dengan kode ini:
     }
 ```
 
-Maka kita menjalankan yang obfuscated atau yang ada di "shb_el_video_player/srcc".
+Maka kita menjalankan yang obfuscated atau yang ada di "video_player/srcc".
 
-### File "shb_el_video_player/src/app.js" dan "shb_el_video_player/src/appservices.js"
+### File "video_player/src/app.js" dan "video_player/src/appservices.js"
 
-File "shb_el_video_player/src/app.js" adalah file kedua yang dijalankan oleh Electron.
+File "video_player/src/app.js" adalah file kedua yang dijalankan oleh Electron.
 
-Setelah melalui bootstrapper, jika kode yang dijalankan adalah versi plaintext, maka bootstrapper akan memanggil file "shb_el_video_player/src/app.js".
+Setelah melalui bootstrapper, jika kode yang dijalankan adalah versi plaintext, maka bootstrapper akan memanggil file "video_player/src/app.js".
 
-Berikut ini adalah isi dari file "shb_el_video_player/src/app.js":
+Berikut ini adalah isi dari file "video_player/src/app.js":
 
 ```
 // script ini adalah tempat membuat objek WindowHome.
@@ -1091,7 +1091,7 @@ AppServices berisi method setup yang akan mendaftarkan handle yang menangani pem
 
 Dengan AppService kita bisa memanggil method main process, dalam hal ini showOpenDialog, dari renderer process.
 
-Berikut ini adalah isi dari "shb_el_video_player/src/appservices.js":
+Berikut ini adalah isi dari "video_player/src/appservices.js":
 
 ```
 // script ini berisi handler untuk open dialog
@@ -1113,9 +1113,9 @@ function setup() {
 module.exports = setup;
 ```
 
-### Folder "shb_el_video_player/src/windowhome" beserta Isinya
+### Folder "video_player/src/windowhome" beserta Isinya
 
-Sekarang, saya akan membahas seluruh isi dari folder "shb_el_video_player/src/windowhome".
+Sekarang, saya akan membahas seluruh isi dari folder "video_player/src/windowhome".
 
 Folder tersebut memiliki beberapa file yang perannya berbeda-beda:
 
@@ -1124,9 +1124,9 @@ Folder tersebut memiliki beberapa file yang perannya berbeda-beda:
 -   renderer.html
 -   renderer.js
 
-File "shb_el_video_player/src/windowhome/main.js" adalah main process dari aplikasi Electron ini.
+File "video_player/src/windowhome/main.js" adalah main process dari aplikasi Electron ini.
 
-Di file tersebut, BrowserWindow dibuat dan "shb_el_video_player/src/windowhome/renderer.html" dimuat:
+Di file tersebut, BrowserWindow dibuat dan "video_player/src/windowhome/renderer.html" dimuat:
 
 ```
 // script ini berisi definisi dari WindowHome
@@ -1172,7 +1172,7 @@ Perhatikan pada bagian ini:
 
 Di situ, kita menentukan preload untuk main process.
 
-Dalam hal ini, preloadnya adalah "shb_el_video_player/src/windowhome/preload.js".
+Dalam hal ini, preloadnya adalah "video_player/src/windowhome/preload.js".
 
 path.join dan \_\_dirname di atas tujuannya adalah untuk mendapatkan absolute path dari "preload.js".
 
@@ -1183,11 +1183,11 @@ Adapun bagian ini:
         self.browserWindow.loadFile(path.join(__dirname, "renderer.html"));
 ```
 
-Kita memuat file "shb_el_video_player/src/windowhome/renderer.html".
+Kita memuat file "video_player/src/windowhome/renderer.html".
 
 Di situ kita juga menggunakan path.join dan \_\_dirname untuk mendapatkan absolute path dari "renderer.html".
 
-Sekarang, kita lihat "shb_el_video_player/src/windowhome/renderer.html":
+Sekarang, kita lihat "video_player/src/windowhome/renderer.html":
 
 ```
 <!DOCTYPE html>
@@ -1202,7 +1202,7 @@ Sekarang, kita lihat "shb_el_video_player/src/windowhome/renderer.html":
   <link rel="stylesheet" href="../vendor/metrocss/css/metro-all.min.css">
 
   <!-- judul header -->
-  <title>SHB EL Video Player</title>
+  <title>Video Player</title>
 </head>
 
 <body>
@@ -1231,7 +1231,7 @@ Namun, perhatikan bagian ini:
   <script src="renderer.js"></script>
 ```
 
-Di HTML itulah kita mengimpor renderer proces, yakni "shb_el_video_player/src/windowhome/renderer.js".
+Di HTML itulah kita mengimpor renderer proces, yakni "video_player/src/windowhome/renderer.js".
 
 Renderer process itulah yang akan memasang elemen video player di sini:
 
@@ -1241,7 +1241,7 @@ Renderer process itulah yang akan memasang elemen video player di sini:
   </div>
 ```
 
-Bagaimana isi "shb_el_video_player/src/windowhome/renderer.js" selengkapnya? Inilah isinya:
+Bagaimana isi "video_player/src/windowhome/renderer.js" selengkapnya? Inilah isinya:
 
 ```
 // script ini adalah renderer process untuk BrowserWindow.
@@ -1288,7 +1288,7 @@ Lalu, apa maksud dari preload.openFileDialog tadi?
 
 Bukankah secara default Electron tak memiliki method tersebut?
 
-Jawabannya ada di "shb_el_video_player/src/windowhome/preload.js" ini:
+Jawabannya ada di "video_player/src/windowhome/preload.js" ini:
 
 ```
 // script ini berisi preload dari WindowHome.
@@ -1378,9 +1378,9 @@ Di dalam method tersebut, ada method ini:
         let result = await ipcRenderer.invoke("dialog-show-open-dialog", {
 ```
 
-Itu akan mengirim pesan ke main process, dalam hal ini "shb_el_video_player/src/appservices.js" sehingga akan membukakan open file dialog.
+Itu akan mengirim pesan ke main process, dalam hal ini "video_player/src/appservices.js" sehingga akan membukakan open file dialog.
 
-Anda bisa cek ulang sebagian kode dari "shb_el_video_player/src/appservices.js" sekali lagi:
+Anda bisa cek ulang sebagian kode dari "video_player/src/appservices.js" sekali lagi:
 
 ```
     // begin: handle apa yang dikirimkan dari renderer process
