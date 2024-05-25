@@ -5,7 +5,7 @@
         -   [Mode Development](#mode-development)
         -   [Mode Production](#mode-production)
     -   [Source Code Project Ini](#source-code-project-ini)
-    -   [Traktir Saya](#traktir-saya)
+    -   [Jika Ingin Traktir Saya](#jika-ingin-traktir-saya)
     -   [Pendahuluan](#pendahuluan)
     -   [Tujuan](#tujuan)
     -   [Prasyarat](#prasyarat)
