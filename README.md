@@ -91,7 +91,9 @@ Source code project ini ada di folder "video_player".
 
 Artikel ini gratis.
 
-Jika Anda ingin traktir saya, kunjungi link saya ( https://taplink.cc/rakifsul ).
+Jika Anda ingin traktir saya, kunjungi link saya:
+
+https://taplink.cc/rakifsul
 
 Di sana ada link untuk traktirnya dan link lainnya.
 
