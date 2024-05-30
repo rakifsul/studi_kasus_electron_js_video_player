@@ -1,11 +1,11 @@
 # Studi Kasus Electron JS Membuat Aplikasi Video Player
 
 -   [Studi Kasus Electron JS Membuat Aplikasi Video Player](#studi-kasus-electron-js-membuat-aplikasi-video-player)
+    -   [Source Code Project Ini](#source-code-project-ini)
+    -   [Jika Ingin Mentraktir Saya](#jika-ingin-mentraktir-saya)
     -   [Cara Mencoba Kode Ini](#cara-mencoba-kode-ini)
         -   [Mode Development](#mode-development)
         -   [Mode Production](#mode-production)
-    -   [Source Code Project Ini](#source-code-project-ini)
-    -   [Jika Ingin Mentraktir Saya](#jika-ingin-mentraktir-saya)
     -   [Pendahuluan](#pendahuluan)
     -   [Tujuan](#tujuan)
     -   [Prasyarat](#prasyarat)
@@ -26,6 +26,22 @@
         -   [File "video_player/src/app.js" dan "video_player/src/appservices.js"](#file-video_playersrcappjs-dan-video_playersrcappservicesjs)
         -   [Folder "video_player/src/windowhome" beserta Isinya](#folder-video_playersrcwindowhome-beserta-isinya)
     -   [Penutup](#penutup)
+
+## Source Code Project Ini
+
+Source code project ini ada di folder "video_player".
+
+## Jika Ingin Mentraktir Saya
+
+Artikel ini gratis.
+
+Jika Anda ingin mentraktir saya, kunjungi link saya:
+
+https://taplink.cc/rakifsul
+
+Di sana ada link untuk mentraktir saya dan link lainnya.
+
+Selamat menikmati.
 
 ## Cara Mencoba Kode Ini
 
@@ -82,22 +98,6 @@ npm run dist
 ```
 
 Hasilnya ada di folder "./dist".
-
-## Source Code Project Ini
-
-Source code project ini ada di folder "video_player".
-
-## Jika Ingin Mentraktir Saya
-
-Artikel ini gratis.
-
-Jika Anda ingin mentraktir saya, kunjungi link saya:
-
-https://taplink.cc/rakifsul
-
-Di sana ada link untuk mentraktir saya dan link lainnya.
-
-Selamat menikmati.
 
 ## Pendahuluan
 
