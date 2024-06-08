@@ -2,7 +2,7 @@
 
 -   [Studi Kasus Electron JS Membuat Aplikasi Video Player](#studi-kasus-electron-js-membuat-aplikasi-video-player)
     -   [Source Code Project Ini](#source-code-project-ini)
-    -   [Jika Ingin Mentraktir Saya](#jika-ingin-mentraktir-saya)
+    -   [Link Penting](#link-penting)
     -   [Cara Mencoba Kode Ini](#cara-mencoba-kode-ini)
         -   [Mode Development](#mode-development)
         -   [Mode Production](#mode-production)
@@ -31,15 +31,17 @@
 
 Source code project ini ada di folder "video_player".
 
-## Jika Ingin Mentraktir Saya
+## Link Penting
 
-Artikel ini gratis.
+Kunjungi juga link saya.
 
-Jika Anda ingin mentraktir saya, kunjungi link saya:
+Link untuk traktir atau beli produk saya:
 
-https://taplink.cc/rakifsul
+-   https://karyakarsa.com/rakifsul
 
-Di sana ada link untuk mentraktir saya dan link lainnya.
+Link selengkapnya:
+
+-   https://taplink.cc/rakifsul
 
 Selamat menikmati.
 
