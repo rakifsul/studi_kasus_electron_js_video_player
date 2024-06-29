@@ -1,49 +1,39 @@
 # Studi Kasus Electron JS Membuat Aplikasi Video Player
 
--   [Studi Kasus Electron JS Membuat Aplikasi Video Player](#studi-kasus-electron-js-membuat-aplikasi-video-player)
-    -   [Source Code Project Ini](#source-code-project-ini)
-    -   [Link Penting](#link-penting)
-    -   [Cara Mencoba Kode Ini](#cara-mencoba-kode-ini)
-        -   [Mode Development](#mode-development)
-        -   [Mode Production](#mode-production)
-    -   [Pendahuluan](#pendahuluan)
-    -   [Tujuan](#tujuan)
-    -   [Prasyarat](#prasyarat)
-    -   [Langkah-langkah](#langkah-langkah)
-        -   [Menginisialisasi Project dengan npm](#menginisialisasi-project-dengan-npm)
-        -   [Meng-install Dependencies](#meng-install-dependencies)
-        -   [Membuat 3 Script Utama](#membuat-3-script-utama)
-        -   [Membuat Folder "video_player/build"](#membuat-folder-video_playerbuild)
-        -   [Membuat Folder "video_player/src"](#membuat-folder-video_playersrc)
-        -   [Membuat Folder "video_player/src/vendor"](#membuat-folder-video_playersrcvendor)
-        -   [Membuat Folder "video_player/src/windowhome"](#membuat-folder-video_playersrcwindowhome)
-        -   [Pembuatan Project Selesai](#pembuatan-project-selesai)
-    -   [Pembahasan](#pembahasan)
-        -   [File "video_player/package.json"](#file-video_playerpackagejson)
-        -   [File "video_player/ndlg.js"](#file-video_playerndlgjs)
-        -   [File "video_player/obfuscate.js"](#file-video_playerobfuscatejs)
-        -   [File "video_player/main.js"](#file-video_playermainjs)
-        -   [File "video_player/src/app.js" dan "video_player/src/appservices.js"](#file-video_playersrcappjs-dan-video_playersrcappservicesjs)
-        -   [Folder "video_player/src/windowhome" beserta Isinya](#folder-video_playersrcwindowhome-beserta-isinya)
-    -   [Penutup](#penutup)
+- [Studi Kasus Electron JS Membuat Aplikasi Video Player](#studi-kasus-electron-js-membuat-aplikasi-video-player)
+  - [Source Code Project Ini](#source-code-project-ini)
+  - [Link untuk Traktir](#link-untuk-traktir)
+  - [Cara Mencoba Kode Ini](#cara-mencoba-kode-ini)
+    - [Mode Development](#mode-development)
+    - [Mode Production](#mode-production)
+  - [Pendahuluan](#pendahuluan)
+  - [Tujuan](#tujuan)
+  - [Prasyarat](#prasyarat)
+  - [Langkah-langkah](#langkah-langkah)
+    - [Menginisialisasi Project dengan npm](#menginisialisasi-project-dengan-npm)
+    - [Meng-install Dependencies](#meng-install-dependencies)
+    - [Membuat 3 Script Utama](#membuat-3-script-utama)
+    - [Membuat Folder "video\_player/build"](#membuat-folder-video_playerbuild)
+    - [Membuat Folder "video\_player/src"](#membuat-folder-video_playersrc)
+    - [Membuat Folder "video\_player/src/vendor"](#membuat-folder-video_playersrcvendor)
+    - [Membuat Folder "video\_player/src/windowhome"](#membuat-folder-video_playersrcwindowhome)
+    - [Pembuatan Project Selesai](#pembuatan-project-selesai)
+  - [Pembahasan](#pembahasan)
+    - [File "video\_player/package.json"](#file-video_playerpackagejson)
+    - [File "video\_player/ndlg.js"](#file-video_playerndlgjs)
+    - [File "video\_player/obfuscate.js"](#file-video_playerobfuscatejs)
+    - [File "video\_player/main.js"](#file-video_playermainjs)
+    - [File "video\_player/src/app.js" dan "video\_player/src/appservices.js"](#file-video_playersrcappjs-dan-video_playersrcappservicesjs)
+    - [Folder "video\_player/src/windowhome" beserta Isinya](#folder-video_playersrcwindowhome-beserta-isinya)
+  - [Penutup](#penutup)
 
 ## Source Code Project Ini
 
 Source code project ini ada di folder "video_player".
 
-## Link Penting
-
-Kunjungi juga link saya.
-
-Link untuk traktir atau beli produk saya:
+## Link untuk Traktir
 
 -   https://karyakarsa.com/rakifsul
-
-Link selengkapnya:
-
--   https://taplink.cc/rakifsul
-
-Selamat menikmati.
 
 ## Cara Mencoba Kode Ini
 
