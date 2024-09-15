@@ -2,7 +2,7 @@
 
 - [Studi Kasus Electron JS Membuat Aplikasi Video Player](#studi-kasus-electron-js-membuat-aplikasi-video-player)
   - [Source Code Project Ini](#source-code-project-ini)
-  - [Link untuk Traktir](#link-untuk-traktir)
+  - [Freelance Worker Link](#freelance-worker-link)
   - [Cara Mencoba Kode Ini](#cara-mencoba-kode-ini)
     - [Mode Development](#mode-development)
     - [Mode Production](#mode-production)
@@ -31,9 +31,9 @@
 
 Source code project ini ada di folder "video_player".
 
-## Link untuk Traktir
+## Freelance Worker Link
 
--   https://karyakarsa.com/rakifsul/info
+- https://projects.co.id/public/browse_users/view/99bc11/rakifsul
 
 ## Cara Mencoba Kode Ini
 
